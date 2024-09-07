@@ -6,15 +6,11 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
-<h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- osTicket (web-application)
 
 <h2>Operating Systems Used </h2>
 
@@ -22,13 +18,26 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- osTicket prerequisites and installation
 
 <h2>Configuration Steps</h2>
+
+  1. Configure Roles (for grouping permissions)  
+  2. Configure Departments (Ticket Visibility, Help Desk, SysAdmins, Networking) 
+  3. Configure Team 
+  4. Configure Agents (Workers) 
+  5. Configure Users (Customers)
+  6. Configure SLA
+    - Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+    - Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+    - Sev-C (Grace Period: 8 hours, Business Hours)
+  7. Configure Help Topics
+    - Business Critical Outage
+    - Personal Computer Issues
+    - Equipment Request
+    - Password Reset
+    - Other
+</p>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
