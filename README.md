@@ -34,13 +34,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 
   ![image](https://github.com/user-attachments/assets/f87b10f4-6f60-4a17-a389-356474dba46c)
  
-  4. Configure Team
+  3. Configure Team
 
      Create a new team called "Online Banking". Team can consist of agents from different departments.
 
   ![image](https://github.com/user-attachments/assets/daee03ea-6d3d-4181-ae16-2cfacfa3f27e)
 
-  5. Configure Agents
+  4. Configure Agents
 
      Create two agents and place them in appropriate departments with permissions. Agents are the help desk workers. (Fill in the credentials and remember them) 
      - Jane Doe (Dept: SysAdmins)
